@@ -1,0 +1,39 @@
+body{
+    background-image: url('/assets/IMG_1088.JPG');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.PokemonWrapper{
+    margin-top: 70px;
+    display: flex;
+    height: 100vh;
+    padding-left: 50px; 
+}
+.pokemonCardWrapper {
+    display: flex;
+    width: 50%;
+}
+
+.pokemonImgWrapper {
+    border: 1px solid;
+    border-radius: 8px;
+    border-width: 3px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(255, 187, 0);
+    cursor: pointer;
+}
+
+.pokemonImg {
+    width: 110%;
+}
+
+.pokemonContent {
+    padding-left: 100px; 
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}
